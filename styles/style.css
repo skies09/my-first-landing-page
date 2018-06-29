@@ -1,0 +1,46 @@
+body {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+/*navbar*/
+
+.navbar {
+    background-color: aqua;
+}
+
+.navbar-brand {
+    color: purple;
+
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+
+
+/*containters*/
+
+
+.introduction-container {
+        height: 400px;
+
+        background-image: url(/images/1122.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        width: auto;
+        
+}
+        
+        .features-container {
+            background-image: url(/images/clouds.jpeg);
+            background-position: center;
+            background-attachment: fixed;
+            width: auto;
+            background-repeat: no-repeat;
+        }
+
+        .jumbotron {
+            background: transparent;
+        }
