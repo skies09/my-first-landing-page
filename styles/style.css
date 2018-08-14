@@ -22,25 +22,32 @@ body {
 
 /*containters*/
 
-
 .introduction-container {
-        height: 400px;
+    height: 400px;
 
-        background-image: url(/images/1122.jpg);
-        background-position: center;
-        background-attachment: fixed;
-        width: auto;
-        
+    background-image: url(/images/1122.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    width: 100%;
+
 }
-        
-        .features-container {
-            background-image: url(/images/clouds.jpeg);
-            background-position: center;
-            background-attachment: fixed;
-            width: auto;
-            background-repeat: no-repeat;
-        }
 
-        .jumbotron {
-            background: transparent;
-        }
+.features-container {
+    background-image: url(/images/clouds.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    width: auto;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.alert- {
+    color: #333;
+    background-color: #d9edf7;
+    border-color: #337ab7;
+    text-align: center;
+    border-radius: 30px;
+}
